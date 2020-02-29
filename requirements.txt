@@ -1,4 +1,9 @@
+flask==1.1.*
+flask_api==2.*
 lxml==4.5.*
 opencv-python==4.2.*
 numpy==1.18
 svglib==0.9.*
+environs==7.1.*
+sentry-sdk[flask]==0.14.*
+gunicorn==20.*
