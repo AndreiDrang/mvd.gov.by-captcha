@@ -1,5 +1,11 @@
 build:
-	docker build -t mvd.gov.by-captcha-back -f Dockerfile .
+	docker build -t andreidrang/mvd.gov.by-captcha-back -f Dockerfile .
+
+pull:
+	docker pull andreidrang/mvd.gov.by-captcha-back
+
+push:
+	docker push andreidrang/mvd.gov.by-captcha-back
 
 start:
 	docker-compose -f docker-compose.yml up -d
