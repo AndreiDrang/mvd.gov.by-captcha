@@ -11,7 +11,7 @@ HORIZONTAL_LINES = (9, 11, 15, 18)
 
 def lines_counter() -> dict:
     res = {}
-    path = "cntrs/cluster/"
+    path = "files/clustered/"
     folders = os.listdir(path)
     for folder in folders:
         res[folder] = []
