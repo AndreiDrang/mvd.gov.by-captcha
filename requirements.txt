@@ -1,0 +1,4 @@
+lxml
+opencv-python
+numpy
+svglib
