@@ -1,4 +1,4 @@
-lxml
-opencv-python
-numpy
-svglib
+lxml==4.5.*
+opencv-python==4.2.*
+numpy==1.18
+svglib==0.9.*
