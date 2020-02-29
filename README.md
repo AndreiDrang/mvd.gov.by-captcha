@@ -1,0 +1,1 @@
+mvd.gov.by-captcha
