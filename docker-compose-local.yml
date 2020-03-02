@@ -9,7 +9,7 @@ services:
       - ./src:/app/src
       - ./src/logs:/app/src/logs
     ports:
-      - 5000:5000
+      - 127.0.0.1:5000:5000
     environment:
       - SENTRY_ENVIRONMENT=test
     env_file:
