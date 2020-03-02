@@ -1,5 +1,8 @@
 # `mvd.gov.by` math captcha solver
 
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/andreidrang/mvd.gov.by-captcha-back?style=flat-square)
+![](https://img.shields.io/badge/Dockerhub-link-blue?style=flat-square)
+
 Сервис предназначен для автоматизации решения математической капчи на сайте [mvd.gov.by](https://mvd.gov.by/ru/electronicAppealLogin).
 На вход сервис получает данные `SVG` изображения, в ответ выдает либо это изображение в текстовом виде, либо уже решенное выражение. 
 
